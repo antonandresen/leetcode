@@ -1,0 +1,17 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts"
+  },
+  "keywords": [],
+  "author": "Anton Andrésen <anton.andresen@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.4"
+  }
+}
